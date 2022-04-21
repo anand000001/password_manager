@@ -1,0 +1,38 @@
+.list-container {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.icon {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  background-color: #10b981;
+  padding-left: 14px;
+  padding-top: 8px;
+  margin: 14px;
+}
+.para {
+  color: white;
+  font-size: 10px;
+  font-family: 'Roboto';
+}
+.del-img {
+  height: 30px;
+  width: 30px;
+  margin: 20px;
+}
